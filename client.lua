@@ -61,12 +61,11 @@ Citizen.CreateThread(function()
                     isDriver = true
                     if DecorExistOn(vehicle, 'fTractionLossMult') then
                         fTractionLossMult = DecorGetFloat(vehicle, 'fTractionLossMult')
-                        --print("Existe valor por defecto: "..fTractionLossMult)
+                        print("Existe valor por defecto: "..fTractionLossMult)
                     else
                         fTractionLossMult = GetVehicleHandlingFloat(vehicle, 'CHandlingData', 'fTractionLossMult')
                         DecorRegister('fTractionLossMult', 1)
                         DecorSetFloat(vehicle,'fTractionLossMult', fTractionLossMult)
-                        --print("Se crea valor por defecto: "..fTractionLossMult)
                     end
                     class = GetVehicleClass(vehicle)
                     isBlacklisted = isModelBlacklisted(GetEntityModel(vehicle))
@@ -142,11 +141,10 @@ function groundAsphalt()
 
     local playerCoord = GetEntityCoords(ped)
     local target = GetOffsetFromEntityInWorldCoords(ped, vector3(0,2,-3))
-    local testRay = StartShapeTestRay(playerCoord, target, 17, ped, 7) -- This 7 is entirely cargo cult. No idea what it does.
+    local testRay = StartShapeTestRay(playerCoord, target, 17, ped, 7)
     local _, hit, hitLocation, surfaceNormal, material, _ = GetShapeTestResultEx(testRay)
 
     if hit then
-        --print (material)
         if material == 282940568 then
             return true
         else
