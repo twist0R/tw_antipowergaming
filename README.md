@@ -14,7 +14,7 @@ Runs at ~ 0.01 to 0.02 ms if you have more optimization suggestions feel free to
 # Installation
 * **just put in your server.cfg " ensure antipowergamingbykurat420**
 
-# Key Features
+# Features
 * Loss of vehicle traction in sand and hills
 * Emergency Service Vehicles Have Less Traction Loss)
 * OFFROAD and SUV cars also have more traction control
