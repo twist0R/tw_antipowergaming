@@ -1,6 +1,6 @@
 ![kurat420-AntiPowergamingScript](https://www.westhillhurst.com/wp-content/uploads/2018/05/banner-mustang-26may2016.jpg)
 
-# 🎅🎄🎁 kurat420 ANTIPOWERGAMING Script used with any Framework 🍪🦌🤶
+# 🎅 kurat420 ANTIPOWERGAMING Script used with any Framework 🤶
 <br>
 Improved off of the newest ANTIPOWERGAMING Script. Written in .lua 
 <br>
