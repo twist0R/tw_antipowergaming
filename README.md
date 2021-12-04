@@ -2,7 +2,7 @@
 
 # 🎅🎄🎁 kurat420 AntiPower Gaming Script used with any Framework 🍪🦌🤶
 <br>
-Improved off of the newest AntiPowerGaming Script. Written in .lua
+Improved off of the newest AntiPowerGaming Script. Written in .lua 
 <br>
 Runs at ~ 0.01 to 0.02 ms if you have more optimization suggestions feel free to reach out
 
