@@ -4,7 +4,7 @@
 <br>
 Improved off of the newest ANTIPOWERGAMING Script. Written in .lua 
 <br>
-Runs at ~ 0.01 to 0.02 ms if you have more optimization suggestions feel free to reach out
+Runs at ~ 0.00 to 0.01 ms if you have more optimization suggestions feel free to reach out
 
 # Follow me in my Social Networks
 * [YOUTUBE](https://www.youtube.com/channel/UChRcrcs1EZna4hGIn1KD3cw)
