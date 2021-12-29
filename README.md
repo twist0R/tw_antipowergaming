@@ -12,7 +12,7 @@ Runs at ~ 0.00 to 0.01 ms if you have more optimization suggestions feel free to
 * [GitHub Profile](https://github.com/kurat420)
 
 # Installation
-* **just put in your server.cfg " ensure antipowergamingbykurat420**
+* **just put in your server.cfg " ensure antipowergamingbykurat420 "** 
 
 # Features
 * Loss of vehicle traction in sand and hills
