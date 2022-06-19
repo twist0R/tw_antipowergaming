@@ -4,7 +4,6 @@ local fTractionLossMult = nil
 local isModed = false
 local class = nil
 local isBlacklisted = false
-
 local classMod = {
     [0]= 2.51, -- Compacts 
     [1] = 2.51, --Sedans
@@ -29,7 +28,6 @@ local classMod = {
     [20] = 2.21, --Commercial  
     [21] = 0 --Trains  
 }
-
 local blackListed = {
     788045382, --"sanchez"
     -1453280962,--"sanchez2"
@@ -50,7 +48,6 @@ local blackListed = {
 	 -271532569, --scpd7
      -879194100, --umkscout	
 }
-
 Citizen.CreateThread(function()
     while true do 
         local ped = GetPlayerPed(-1)      
@@ -89,7 +86,6 @@ Citizen.CreateThread(function()
         Citizen.Wait(2000)
     end
 end)
-
 Citizen.CreateThread(function()
     while true do 
         if isBlacklisted == false then     
@@ -118,14 +114,12 @@ Citizen.CreateThread(function()
         Citizen.Wait(500)
     end
 end)
-
 function setTractionLost (value)
     if isBlacklisted == false and vehicle ~= nil and value ~= nil then
         SetVehicleHandlingFloat(vehicle, 'CHandlingData', 'fTractionLossMult', value)
         print("fTractionLossMult: "..value)
     end
 end
-
 function isModelBlacklisted(model)
     local found = false
     for i = 1, #blackListed do
@@ -136,7 +130,6 @@ function isModelBlacklisted(model)
     end
     return found
 end
-
 function groundAsphalt()
     local ped = PlayerPedId()
 
@@ -150,7 +143,6 @@ function groundAsphalt()
     end
     return false
 end
-
 function pointingRoad(veh)
     local pos = GetEntityCoords(veh, true)
     if IsPointOnRoad(pos.x,pos.y,pos.z-1,false) then
