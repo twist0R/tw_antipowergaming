@@ -1,4 +1,4 @@
-![kurat420-AntiPowergamingScript](https://www.westhillhurst.com/wp-content/uploads/2018/05/banner-mustang-26may2016.jpg)
+![tw1st0R-AntiPowergamingScript](https://www.westhillhurst.com/wp-content/uploads/2018/05/banner-mustang-26may2016.jpg)
 
 # kurat420 ANTIPOWERGAMING Script used with any FRAMEWORK
 <br>
